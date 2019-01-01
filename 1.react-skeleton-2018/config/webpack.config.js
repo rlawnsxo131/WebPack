@@ -55,5 +55,10 @@ module.exports = {
       filename: "[name].css",
       chunkFilename:"[id].css"
     })
-  ]
+  ],
+  optimiaztion:{},
+  resolve: {
+    modules: [],
+    extensions:[]
+  }
 };
