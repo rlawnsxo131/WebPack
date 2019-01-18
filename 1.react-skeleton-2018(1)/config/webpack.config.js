@@ -2,13 +2,6 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const miniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
-  //mode: 'development', 현재상황에서는 사용 안해도 무관
-  /* 이 부분은 entry와 output의 기본값으로 생략 가능하다.
-  entry: './src/index.js',
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist')
-  }, */
   module: {
     rules: [
       {
@@ -55,10 +48,5 @@ module.exports = {
       filename: "[name].css",
       chunkFilename:"[id].css"
     })
-  ],
-  optimiaztion:{},
-  resolve: {
-    modules: [],
-    extensions:[]
-  }
+  ]
 };
