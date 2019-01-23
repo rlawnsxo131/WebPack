@@ -1,5 +1,5 @@
+// 현재 사용하지 않는 소스코드 참고용으로 남겨둠 
 const path = require('path');
-const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
